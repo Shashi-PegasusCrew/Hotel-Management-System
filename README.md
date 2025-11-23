@@ -37,25 +37,43 @@ This Java-based Hotel Management System automates key operations in hotel admini
 
 * DETAILED PROJECT STRUCTURE:
 AddDrivers.java: Enables addition and management of driver records for guest transport.
+
 AddEmployee.java: Handles staff registration, data entry, and editing.
+
 AddRoom.java: Facilitates addition of new rooms, including room type, price, and status.
+
 CheckOut.java: Manages check-out workflow, bill updates, and customer departure.
+
 conn.java: Provides database connectivity and query handling for persistent data storage.
+
 CustomerInfo.java: Stores and displays detailed customer information; supports queries and reporting.
+
 Dashboard.java: Offers an overview interface for navigating the system's main features.
+
 Department.java: Manages hotel department listings and details, supporting backend administration.
+
 HotelManagementSystem.java: Acts as the main entry point and controller for the integrated GUI application.
+
 Login.java: Implements staff authentication and session management.
+
 ManagerInfo.java: Handles manager profiles and administrative access rights.
+
 NewCustomer.java: Registers guests and initiates their booking journey.
+
 PickUp.java: Arranges and tracks pick-up logistics for guest arrivals.
+
 Reception.java: Central module for front desk operations, handling queries, bookings, and guest support.
+
 Room.java: Defines room properties, maintains status, and interfaces with booking and update modules.
+
 SearchRoom.java: Enables room search functionality (by availability, type, etc.).
+
 UpdateCheck.java: Updates customer information and check-in status post-booking.
+
 UpdateRoom.java: Manages changes to room status/details (maintenance, pricing, etc.).
 
-
+* PROCESS:
+  
 Authentication: Start with Login.java for secure access.
 
 Reception Operations: Use Reception.java and Dashboard.java to manage customer bookings, check-ins, and queries.
